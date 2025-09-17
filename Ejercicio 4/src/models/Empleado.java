@@ -1,11 +1,11 @@
 package models;
 
-public class Contacto {
+public class Empleado {
     private String nombre;
     private String correo;
     private String telefono;
 
-    public Contacto(String nombre, String correo, String telefono) {
+    public Empleado(String nombre, String correo, String telefono) {
         this.nombre = nombre;
         this.correo = correo;
         this.telefono = telefono;
@@ -25,7 +25,7 @@ public class Contacto {
 
     @Override
     public String toString() {
-        final StringBuilder sb = new StringBuilder("Contacto{ ");
+        final StringBuilder sb = new StringBuilder("Empleado{ ");
         sb.append("nombre:'").append(nombre).append('\'');
         sb.append(", correo:'").append(correo).append('\'');
         sb.append(", telefono:'").append(telefono).append('\'');

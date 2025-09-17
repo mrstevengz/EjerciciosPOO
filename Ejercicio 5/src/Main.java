@@ -26,6 +26,7 @@ public class Main {
                     System.out.println("Su cadena contiene " + at.countWords(texto) + " palabras");
                     break;
 
+
                 case 3:
                     System.out.println("Ingrese la palabra que desea reemplazar en la cadena: ");
                     String palabra = sc.nextLine();
@@ -37,6 +38,7 @@ public class Main {
                         at.setTexto(nuevoTexto);
                     }
                     System.out.println("Su nueva cadena de texto es: " + at.getTexto());
+                    break;
             }
 
         } while (op != 4);
